@@ -4,7 +4,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 const MovieRow = ({title, items}) => {
-  const [scrollX, setScrollX] = useState(-900);
+  const [scrollX, setScrollX] = useState(0);
 
   const handleLeftArrow = () => {
     let x = scrollX + Math.round(window.innerWidth / 2);
@@ -16,7 +16,11 @@ const MovieRow = ({title, items}) => {
 
   const handleRightArrow = () => {
     let x = scrollX - Math.round(window.innerWidth / 2);
-
+    let listW = items.results.length * 150;
+    if((window.innerWidth - listW) > x) {
+      x = (window.innerWidth - listW) - 60;
+    }
+    setScrollX(x);
   }
 
   return (
