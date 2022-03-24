@@ -4,11 +4,11 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 30px 30px;
     background: transparent;
     transition: all 0.2s ease;
 }
@@ -18,7 +18,8 @@ header.black {
 }
 
 .header--logo {
-    height: 45px;
+    height: 23px;
+    padding-right: 50px;
 }
 
 .header--logo img {
@@ -26,7 +27,39 @@ header.black {
 }
 
 .header--user {
-    height: 45px;
-    width: 45px;
+    height: 23px;
+    width: 23px;
     background-color: darkorange;
+}
+
+.header--menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-itensMenu {
+    display: flex;
+    align-items: center;
+}
+
+.header-itensMenu p {
+    padding: 0 10px;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .header-itensMenu {
+        visibility: hidden;
+    }
+    header {
+        width: 100vw;
+    }
+    .header--user {
+        height: 23px;
+        width: 23px;
+        background-color: darkorange;
+        margin: 0 5vh;
+    }
 }

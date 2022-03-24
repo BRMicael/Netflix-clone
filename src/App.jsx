@@ -50,7 +50,7 @@ function App() {
       {
         featuredData && 
         <FeaturedMovie item={featuredData} />
-      }
+        }
 
       <section className="lists">
         {movieList.map((item, key) => (
@@ -59,8 +59,6 @@ function App() {
       </section>
 
         <footer>
-          <p>Desenvolvido por Micael</p>
-          <p>Feito pela B7Web</p>
           <p>Direitos de imagem para Netflix</p>
           <p>Dados pegos do site Themoviedb.com</p>
         </footer>

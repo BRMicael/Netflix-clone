@@ -1,5 +1,6 @@
-.movieRow {
+.movieRow:nth-child(1) {
     margin-bottom: 30px;
+    margin-top: 10vh;
 }
 
 .movieRow h2 {
@@ -47,6 +48,7 @@
 
 .movieRow--left {
     left: 0;
+    margin: 0 30px;
 }
 
 .movieRow--right {
