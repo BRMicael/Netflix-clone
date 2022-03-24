@@ -15,7 +15,6 @@ function App() {
     const loadAll = async () => {
 
       let list = await Tmdb.getHomeList();
-      console.log(list);
       setMovieList(list)
 
       // Pegando a feature
