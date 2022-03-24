@@ -2,9 +2,9 @@
 
 <p>Clone da plataforma de streaming "Netflix"</p> <br>
 
-![initial](https://github.com/BRMicael/nlw6-rocket.q/blob/main/screenshots/screenshot1.png)
-![movies rows](https://github.com/BRMicael/nlw6-rocket.q/blob/main/screenshots/screenshot2.png)
-![phone](https://github.com/BRMicael/nlw6-rocket.q/blob/main/screenshots/screenshot3.png)
+![initial](https://github.com/BRMicael/Netflix-clone/blob/main/screenshots/screenshot1.png)
+![movies rows](https://github.com/BRMicael/Netflix-clone/blob/main/screenshots/screenshot2.png)
+![phone](https://github.com/BRMicael/Netflix-clone/blob/main/screenshots/screenshot3.png)
 
 
 <h2>Tecnologias usadas:</h2>
